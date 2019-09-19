@@ -13,8 +13,6 @@ class EmailAddressParser
     @emails = emails
   end
   
-  def 
-  
   def parse
     email_array << emails.split(" , ")
   end
